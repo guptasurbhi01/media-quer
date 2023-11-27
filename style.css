@@ -1,22 +1,23 @@
-body{
-        margin: 0px;
-        height: 100%;
-        background-color: rgb(14, 14, 14);
-}
+
 img {
     display: block;
-    -webkit-user-select: none;
-    margin: auto;
+    /* -webkit-user-select: none; */
+    margin: 0 auto;
     cursor: zoom-in;
     background-color: hsl(0, 0%, 90%);
     transition: background-color 300ms;
 }
-/* img {
-    width: 234px;
-    aspect-ratio: auto 234 / 156;
-    height: 156px;
-}
 img {
     overflow-clip-margin: content-box;
     overflow: clip;
-} */
+} 
+
+/* @media screen and (max-height: 500px) {
+    body {
+      margin-top: 0;
+    }
+    img{
+        height: 100%;
+      width: 100%;
+    }
+  } */
